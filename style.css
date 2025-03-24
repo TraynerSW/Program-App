@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(30, 30, 30);
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+h1 {
+	font-size: 400%;
+}
+h2 {
+	font-size: 200%;
+}
+a {
+	font-size: 120%;
+}
+form {
+	margin-top: 10px;  /* Ajoute un écart au-dessus du bouton */
+	margin-bottom: 200px;
+	height: 10px;
+}
+input[type="text"], input[type="password"] {
+	border-radius: 12px;  /* Bords arrondis */
+	background-color: #ffffff;
+	padding: 5px 10px;  /* Espacement interne (x = hauteur, y = largeur) */
+	width: 200px;
+	height: 30px;
+	border: 1px solid rgb(30, 30, 30);  /* Bordure, solid pour "remplie" */
+	font-size: 16px;  /* Taille du texte */
+}
+button {
+	border-radius: 12px;  /* Bords arrondis */
+	background-color: #ffffff;
+	padding: 5px 11px;  /* Espacement interne */
+	height: 30px;
+	border: 1px solid rgb(30, 30, 30);  /* Bordure, solid pour "remplie" */
+	font-size: 16px;	/* Taille du texte */
+	margin-top: 10px;  /* Ajoute un écart au-dessus du bouton */
+	margin-bottom: 10px;
+}
